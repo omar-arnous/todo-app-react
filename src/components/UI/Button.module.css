@@ -1,0 +1,22 @@
+.btn {
+    font: inherit;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(67, 222, 243);
+    color: rgb(230, 253, 248);
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 10px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background-color: rgb(34, 219, 243);
+    cursor: pointer;
+}
+
+.btn:active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) ;
+}

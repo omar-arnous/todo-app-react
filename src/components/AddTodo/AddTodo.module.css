@@ -1,0 +1,23 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+}
+
+.form input {
+    width: 80%;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid rgb(230, 253, 248);
+    border-radius: 8px;
+    font: inherit;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    caret-color: rgb(67, 222, 243);
+    color: #000;
+}
+
+.form input:focus {
+    outline: none !important;
+    border-bottom: 2px solid rgb(67, 222, 243);
+}
